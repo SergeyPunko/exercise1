@@ -22,6 +22,6 @@ flexP.onclick = function(){
 	for(var i=1;i<=4;i++){
 		boxSlider.innerHTML+="<div class=\"items item"+i+"\"><span>"+text[i-1]+"</span></div>";
 	}
-	boxSlider.innerHTML+="<a href=\"twotask.html\" id=\"home\">В начало</a>";
+	boxSlider.innerHTML+="<a href=\"secondtask.html\" id=\"home\">В начало</a>";
 	parentElem.appendChild(boxSlider);
 }
